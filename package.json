@@ -1,0 +1,11 @@
+{
+  "name": "batch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "cd public && wget https://batch-131428.webflow.io/ --recursive --page-requisites --html-extension --convert-links -xnH -e robots=off && firebase deploy"
+  },
+  "author": "",
+  "license": "ISC"
+}
